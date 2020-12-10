@@ -17,9 +17,11 @@ So we can encode it as follow:
 | Dash -     | 11			     |
 | Space	     | 10          |
 
+*Correction: we don't even need space...*
+
 And for 1 character we can use one 8-bits register as follow:
 
-Note: crumb == 2-bits
+**Note: crumb == 2-bits**
 
 | CHAR | 1st Crumb | 2nd Crumb | 3rd Crumb | 4th Crumb |
 | ---- | --------- | --------- | --------- | --------- |
