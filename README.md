@@ -28,6 +28,8 @@ And for 1 character we can use one 8-bits register as follow:
 | A    | 01		     | 11		     | 00		     | 00		     |
 | B    | 11		     | 01		     | 01		     | 01		     |
 
+Set up variables like this
+
 ```assembly
 .equ	morseA = 0b01_11_00_00	; Morse code A using Anthonian Morse Code Encoding :P
 .equ	morseB = 0b11_01_01_01	; Morse code B
